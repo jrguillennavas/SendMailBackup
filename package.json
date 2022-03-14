@@ -1,0 +1,26 @@
+{
+  "name": "sendmailbackup",
+  "version": "1.0.0",
+  "description": "Envio de correo con datos de backups SAP B1 HANA.",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mail",
+    "correo",
+    "send",
+    "envio",
+    "sap",
+    "b1",
+    "backups",
+    "hana"
+  ],
+  "author": "José Guillen",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.7.2",
+    "ssh2": "^1.7.0"
+  }
+}
